@@ -8,21 +8,20 @@ body{
     background-color: #eeeeee;
 }
 
-
 header{
     background: linear-gradient(#5e5e5e, #454444);
 }
 
 header li{
-
     display: block;
     float: left;
     width: 120px;
     height: 40px;
     border: 1px transparent solid;
+    text-align: center;
 }
 
-header li:active{
+header li:hover{
     background-color: #434343;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
@@ -46,7 +45,12 @@ footer li{
     float: left;
     width: 120px;
     height: 40px;
-    padding: 5px;
+    padding: 10px 25px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: black;
 }
 
 nav li a{
@@ -57,8 +61,15 @@ nav li a{
     padding: 10px;
 }
 
-nav li a:active{
+nav li a:hover{
     color: #2c2c2c;
+}
+
+div p{
+    font-size: 13.333px;
+    font-family: "Open Sans", Arial;
+    color: rgb(44, 44, 44);
+    line-height: 1.6;
 }
 
 .mainBox{
@@ -71,9 +82,8 @@ nav li a:active{
 
 .logo{
     width: 140px;
-    margin: 40px 0px;
+    margin: 0 0 40px;
 }
-
 
 .nav_menu{
     display: block;
@@ -89,19 +99,23 @@ nav li a:active{
     color: #656363;
 }
 
+.menu_Buttom:hover{
+    padding: 0 30px;
+    background-color: #f9f9f9;
+}
+
 .photo{
-    width: 500px;
-    padding: 50px;
+    width: 676px;
+    /*padding: 50px;*/
     border: 1px solid gray;
-    margin: 40px;
+    margin: 40px 0;
 }
 
 .text
 {
-    width: 620px;
+    width: 626px;
     margin-left: auto;
     margin-bottom: 60px;
-    padding: 40px;
 }
 
 .fright{
@@ -113,7 +127,8 @@ nav li a:active{
     display: block;
     clear: both;
 }
+
 .TM{
     display: block;
-    width: 160px;
+    width: 200px;
 }
