@@ -91,14 +91,14 @@ div p{
 
 .nav_menu{
     display: block;
+    float: left;
     margin-top: 40px;
-    border-collapse: collapse;
+    width: 240px;
 }
 
 .menu_Buttom{
     display: block;
     border: 1px solid gray;
-    border-;
     width: 240px;
     height: 40px;
     color: #656363;
@@ -111,7 +111,7 @@ div p{
 
 .photo{
     width: 676px;
-    /*padding: 50px;*/
+    padding: 50px;
     border: 1px solid gray;
     margin: 40px 0;
 }
@@ -131,6 +131,10 @@ div p{
     content: "";
     display: block;
     clear: both;
+}
+
+.border_collapse{
+    border-top: transparent;
 }
 
 .TM{
