@@ -99,13 +99,14 @@ div p{
 .menu_Buttom{
     display: block;
     border: 1px solid gray;
+    padding-top: 10px;
     width: 240px;
     height: 40px;
     color: #656363;
 }
 
 .menu_Buttom:hover{
-    padding: 0 30px;
+    padding: 10px 30px;
     background-color: #f9f9f9;
 }
 
@@ -139,5 +140,7 @@ div p{
 
 .TM{
     display: block;
+    text-align: left;
     width: 200px;
+    padding: 10px 10px;
 }
